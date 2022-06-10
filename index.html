@@ -31,10 +31,14 @@
           <option value="">Other</option>
         </select>
       </label>
+    </fieldset>
+    <fieldset>
       <label>Would you recommend freeCodeCamp to a friend?</label>
-      <label>Definitely <input class="inline" name="recommend" value="1" type="radio"></label>
-      <label>Maybe <input class="inline" name="recommend" value="2" type="radio"></label>
-      <label>Not sure <input class="inline" name="recommend" value="3" type="radio"></label>
+      <label><input class="inline" name="recommend" value="1" type="radio">Definitely</label>
+      <label><input class="inline" name="recommend" value="2" type="radio">Maybe</label>
+      <label><input class="inline" name="recommend" value="3" type="radio">Not sure</label>
+    </fieldset>
+    <fieldset>
       <label>What is your favorite feature of freeCodeCamp?
         <select id="dropdown">
           <option value="">(Select an option)</option>
@@ -44,7 +48,24 @@
           <option value="">Open Source</option>
         </select>
     </fieldset>
-
+    <fieldset>
+      <label>What would you like to see improved? (Check all that apply)</label>
+      <label><input class="inline" value="1" type="checkbox">Front-end Projects</label>
+      <label><input class="inline" value="2" type="checkbox">Back-end Projects</label>
+      <label><input class="inline" value="3" type="checkbox">Data Visualization</label>
+      <label><input class="inline" value="4" type="checkbox">Challenges</label>
+      <label><input class="inline" value="5" type="checkbox">Open Source Community</label>
+      <label><input class="inline" value="6" type="checkbox">Gitter help rooms</label>
+      <label><input class="inline" value="7" type="checkbox">Videos</label>
+      <label><input class="inline" value="8" type="checkbox">City Meetups</label>
+      <label><input class="inline" value="9" type="checkbox">Wiki</label>
+      <label><input class="inline" value="10" type="checkbox">Forum</label>
+      <label><input class="inline" value="11" type="checkbox">Additional Courses</label>
+    </fieldset>
+    <fieldset>
+      <label>Any comments or suggestions? <textarea cols="30" rows="7"></textarea></label>
+    </fieldset>
+    <input type="submit" id="submit">
   </form>
 </body>
 

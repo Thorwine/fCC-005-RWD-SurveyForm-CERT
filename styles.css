@@ -24,8 +24,8 @@ form {
 
 fieldset {
   border: none;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -52,7 +52,7 @@ textarea {
 
 label {
   display: block; /* label elements are inline by default! */
-  margin: 0.5rem 0; /* siehe Fußnote > CSS Units */
+  margin: 0.5rem 0 0 0; /* siehe Fußnote > CSS Units */
 }
 
 ::placeholder {
